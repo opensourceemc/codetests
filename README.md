@@ -2,7 +2,7 @@ Included inside this repository is a code test performed in according to specifi
 
 The webservice may be reached at:
 
-http://ec2-52-11-142-4.us-west-2.compute.amazonws.com/EmcRubiconWS/fibonacci?n=<number>
+http://ec2-52-11-142-4.us-west-2.compute.amazonaws.com/EmcRubiconWS/fibonacci?n=15
 
 The EmcRubiconWS implements a RESTFUL Web Service which generates output in a Fibonacci sequence n times with n as a non-negative whole integer input. Supplied 5 for n times the following would be produced as output: 0 1 1 2 3. Given a negative number, a 400 Bad Request is produced. Given 0 or null data a friendly error message is displayed. Given a whole integer, a pattern in accordance to Fibonacci is produced the supplied number of times.
 
